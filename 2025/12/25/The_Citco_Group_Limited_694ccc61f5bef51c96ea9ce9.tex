@@ -1,3 +1,8 @@
+%-------------------------
+% Resume in Latex
+% Author : Rishit Epari
+% JOB LINK: https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11922?utm_medium=jobboard&utm_source=jobright
+%-------------------------
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -92,7 +97,7 @@
 %-----------SUMMARY-----------
 \section{Professional Summary}
 \small{
-Software engineer with experience across backend systems, data engineering, and applied AI, focused on building scalable, production-grade solutions across cloud platforms.
+Computer Science master’s student with over 2 years of experience developing data-focused applications. Skilled in Python scripting, SQL query optimization, and building ETL pipelines on Azure and AWS. Proven ability to streamline data processes—reducing processing time by 20\%—and collaborate across teams to deliver reliable solutions in fast-paced IT environments.
 }
 \vspace{-10pt}
 
@@ -107,7 +112,7 @@ Software engineer with experience across backend systems, data engineering, and 
     \resumeItemListEnd
 
   \resumeSubheading
-    {KIIT University}{2015}
+    {KIIT University}{}
     {Bachelor of Technology in Computer Science \& Engineering}{Bhubaneswar, India}
 \resumeSubHeadingListEnd
 
@@ -118,33 +123,41 @@ Software engineer with experience across backend systems, data engineering, and 
     {AI Data Scientist (Co-op)}{Sep 2025 -- Present}
     {Resolution Life}{Philadelphia, USA}
     \resumeItemListStart
-        \resumeItem{Enhanced AI agent performance by refining prompts for low-quality interactions, raising response quality scores above defined evaluation thresholds.}
-        \resumeItem{Architected an automated AI governance framework using Power Automate to trigger API-based audits for bias, risk, and quality metrics with real-time alerts.}
-        \resumeItem{Engineered a custom multi-agent competitive analysis system using OpenAI APIs to autonomously evaluate competitor products and generate differentiation reports.}
+        \resumeItem{Enhanced machine learning agent performance by refining prompts for the bottom 20\% of interactions, raising response quality scores above the 80\% threshold.}
+        \resumeItem{Architected an automated AI governance framework using Power Automate and design patterns to audit new AI widgets for bias, risk, and quality metrics, triggering real-time compliance alerts.}
+        \resumeItem{Engineered a Python-based multi-agent competitive analysis system for data processing that autonomously evaluates competitor products against in-house solutions, generating strategic differentiation reports.}
     \resumeItemListEnd
 
   \resumeSubheading
     {Senior Software Development Engineer}{Jun 2022 -- Aug 2024}
     {mavQ}{Hyderabad, India}
     \resumeItemListStart
-        \resumeItem{Built scalable Spring Boot microservices supporting high-traffic customer deployments with resilient inter-service communication using Feign clients.}
-        \resumeItem{Enabled data persistence by integrating PostgreSQL and SQL databases using Spring Data JPA.}
+        \resumeItem{Built Python-based ETL pipelines in Azure Data Factory to integrate data from APIs, SQL Server, and Blob storage into Salesforce.}
+        \resumeItem{Collaborated with cross-functional teams (data scientists, business analysts) to define and engineer data solutions using Git for version control.}
         \resumeItem{Developed and deployed an IVR solution using AWS Lambda and Amazon Connect, automating airport helpdesk operations handling 200+ calls daily.}
     \resumeItemListEnd
 
-  \resumeSubheading
-    {Senior Consultant}{Jul 2021 -- Jun 2022}
-    {MTX}{Hyderabad, India}
-    \resumeItemListStart
-        \resumeItem{Programmatically provisioned Azure resources in multi-tenant environments, reducing onboarding time by 70\%.}
-        \resumeItem{Automated IIS deployments using Jenkins and Octopus Deploy, reducing manual errors and accelerating releases.}
-        \resumeItem{Implemented SAML 2.0 integration with Component Space for SSO authentication, enhancing web application security.}
-    \resumeItemListEnd
+  % \resumeSubheading
+  %   {Senior Consultant}{Jul 2021 -- Jun 2022}
+  %   {MTX}{Hyderabad, India}
+  %   \resumeItemListStart
+  %       \resumeItem{Programmatically provisioned Azure resources in multi-tenant environments, reducing onboarding time by 70\%.}
+  %       \resumeItem{Automated IIS deployments using Jenkins and Octopus Deploy, reducing manual errors and accelerating releases.}
+  %       \resumeItem{Implemented SAML 2.0 integration with Component Space for SSO authentication, enhancing web application security.}
+  %   \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section{Projects}
 \resumeSubHeadingListStart
+    \resumeProjectHeading
+    {\textbf{CryptoSecure} $|$ \emph{React, Node.js, Claude Sonnet, Tailwind}}{Dec 2025 -- Present}
+    \resumeItemListStart
+        \resumeItem{Architected an AI-powered security scanner for TON blockchain smart contracts, reducing audit time from weeks to under a minute.}
+        \resumeItem{Built a vulnerability detection engine using Claude Sonnet 4.5 to identify 8+ semantic defect types (reentrancy, overflow).}
+        \resumeItem{Engineered an autonomous adversarial agent that orchestrates multiple LLMs to simulate exploit attempts, validating smart contract resilience against diverse attack vectors.}
+    \resumeItemListEnd
+
   \resumeProjectHeading
     {\textbf{FactChecker} $|$ \emph{Python, FastAPI, Next.js, GCP, RAG}}{Apr 2025 -- Jun 2025}
     \resumeItemListStart
@@ -152,23 +165,17 @@ Software engineer with experience across backend systems, data engineering, and 
         \resumeItem{Implemented multi-stage hallucination detection using agreement gates and GPT-4o-powered stance classification to improve factual reliability.}
         \resumeItem{Built citation-backed explanation pipeline providing transparent evidence with source attribution and confidence scoring to increase trust in model outputs.}
     \resumeItemListEnd
-
-  \resumeProjectHeading
-    {\textbf{EcoMedAI} $|$ \emph{Python, FastAPI, LLM, FAISS, Next.js}}{Feb 2025 -- Feb 2025}
-    \resumeItemListStart
-        \resumeItem{Developed a medical waste classification pipeline using fine-tuned ResNet50 trained on WHO medical datasets, processing 10k+ items/month to reduce hazardous disposal costs by 15\%.}
-        \resumeItem{Architected a RAG-based recommendation engine using Gemini and FAISS for sustainable supply procurement, leveraging semantic search and LLM re-ranking.}
-        \resumeItem{Implemented waste stream mapping system translating WHO categories into color-coded bin classifications, preventing costly misclassification (4x disposal cost differential).}
-    \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{\item{
-    \textbf{AI / Machine Learning}{: Python, PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, Hugging Face, RAG, LLM Fine-tuning, FAISS, Power Automate (AI Flows)} \\
-    \textbf{Cloud \& DevOps}{: Azure (ADF, Logic Apps, DevOps, SQL, Functions, Web App, KeyVault, Relays), AWS (Lambda, Connect, KVS, DynamoDB, EC2, CloudWatch, S3), GCP (Cloud Run, Containers), Docker, Kubernetes, Jenkins, GitHub Actions} \\
-    \textbf{Databases}{: SQL Server, PostgreSQL, MySQL} \\
+  \textbf{Programming Languages}{: Python, Java, C\#, SQL} \\
+    \textbf{AI / ML Libraries \& Frameworks}{: PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, Hugging Face, RAG, Machine Learning} \\
+    \textbf{Web Technologies}: {REST APIs, FastAPI, Next.js, React} \\
+    \textbf{Cloud \& MLOps}{: AWS, Azure, GCP, Docker, Kubernetes, Git/GitHub, GitHub Actions, Design Patterns} \\
+    \textbf{Database \& Data Processing}{: SQL Server, PostgreSQL, MySQL, Data Analysis, Data Visualizations} \\
   }}
 \end{itemize}
 \vspace{-10pt}
