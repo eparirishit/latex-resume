@@ -1,3 +1,9 @@
+%-------------------------
+% Resume in Latex
+% Author : Rishit Epari
+% JOB LINK: https://careers-c1.icims.com/jobs/7038/data-engineer---c1-gov/job?mode=job&iis=SOURCE&iisn=LinkedInJobPosting&jr_id=68eb8d0676a1db7c59860d44
+%-------------------------
+
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -92,7 +98,7 @@
 %-----------SUMMARY-----------
 \section{Professional Summary}
 \small{
-Software engineer with experience across backend systems, data engineering, and applied AI, focused on building scalable, production-grade solutions across cloud platforms.
+Data Engineer with over 4 years of experience designing and optimizing scalable ETL/ELT pipelines across Azure and AWS platforms. Skilled in Python, SQL Server, Azure Data Factory and AWS Lambda, with a track record of cutting data processing times by 20\% and automating governance workflows. Proven ability to integrate diverse data sources and ensure data reliability for enterprise analytics.
 }
 \vspace{-10pt}
 
@@ -118,8 +124,8 @@ Software engineer with experience across backend systems, data engineering, and 
     {AI Data Scientist (Co-op)}{Sep 2025 -- Present}
     {Resolution Life}{Philadelphia, USA}
     \resumeItemListStart
-        \resumeItem{Enhanced AI agent performance by refining prompts for low-quality interactions, raising response quality scores above defined evaluation thresholds.}
-        \resumeItem{Architected an automated AI governance framework using Power Automate to trigger API-based audits for bias, risk, and quality metrics with real-time alerts.}
+        \resumeItem{Enhanced AI agent performance by refining prompts for the bottom 20\% of interactions in machine learning pipelines, raising response quality scores (via LLM-as-a-Judge) above the 80\% threshold.}
+        \resumeItem{Architected an automated AI data governance framework using Power Automate to trigger API-based audits for bias, risk, and quality metrics with real-time alerts.}
         \resumeItem{Engineered a custom multi-agent competitive analysis system using OpenAI APIs to autonomously evaluate competitor products and generate differentiation reports.}
     \resumeItemListEnd
 
@@ -128,17 +134,17 @@ Software engineer with experience across backend systems, data engineering, and 
     {mavQ}{Hyderabad, India}
     \resumeItemListStart
         \resumeItem{Built scalable Spring Boot microservices supporting high-traffic customer deployments with resilient inter-service communication using Feign clients.}
-        \resumeItem{Enabled data persistence by integrating PostgreSQL and SQL databases using Spring Data JPA.}
-        \resumeItem{Built and optimized ETL pipelines using Azure Data Factory to integrate APIs, SQL Server, and Blob storage into Salesforce.}
+        \resumeItem{Engineered real-time data sync between Salesforce and SQL Server via Azure Logic Apps, significantly reducing manual data reconciliation tasks.}
+        \resumeItem{Built robust ETL pipelines in Azure Data Factory to integrate heterogeneous data sources (APIs, SQL Server) into centralized data warehouses, aligning with modern data architectures.}
     \resumeItemListEnd
 
   \resumeSubheading
     {Senior Consultant}{Jul 2021 -- Jun 2022}
     {MTX}{Hyderabad, India}
     \resumeItemListStart
-        \resumeItem{Programmatically provisioned Azure resources in multi-tenant environments, reducing onboarding time by 70\%.}
-        \resumeItem{Automated IIS deployments using Jenkins and Octopus Deploy, reducing manual errors and accelerating releases.}
-        \resumeItem{Optimized complex SQL queries within ETL workflows, reducing data processing time by 20\%.}
+        \resumeItem{Programmatically provisioned Azure resources (KeyVault, SQL, Blob Storage) in multi-tenant setups using infrastructure-as-code, slashing new-user onboarding time by 70\%.}
+        \resumeItem{Automated IIS deployment using Jenkins and Octopus Deploy within CI/CD pipelines, reducing manual errors and boosting deployment speed for data applications.}
+        \resumeItem{Optimized complex SQL queries within ETL workflows, cutting data processing time by 20\% and ensuring mapping accuracy for large-scale customer deployments.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -150,14 +156,14 @@ Software engineer with experience across backend systems, data engineering, and 
     \resumeItemListStart
         \resumeItem{Engineered an AI-powered receipt processing system integrating with Splitwise APIs for automated expense extraction.}
         \resumeItem{Integrated Google Gemini 2.5 Flash API for multimodal OCR to scan receipts, achieving 99.8\% extraction accuracy.}
-        \resumeItem{Built a full-stack TypeScript application using Next.js with React Server Components and responsive PWA capabilities.}
+        % \resumeItem{Built a full-stack TypeScript application using Next.js with React Server Components and responsive PWA capabilities.}
     \resumeItemListEnd
 
   \resumeProjectHeading
     {\textbf{FactChecker} $|$ \emph{Python, FastAPI, Next.js, GCP, RAG}}{Apr 2025 -- Jun 2025}
     \resumeItemListStart
         \resumeItem{Engineered an AI fact-checking platform using FastAPI and OpenAI API, integrating three parallel RAG pipelines for ensemble claim verification with web search retrieval.}
-        \resumeItem{Implemented multi-stage hallucination detection using agreement gates and GPT-4o-powered stance classification to improve factual reliability.}
+        % \resumeItem{Implemented multi-stage hallucination detection using agreement gates and GPT-4o-powered stance classification to improve factual reliability.}
         \resumeItem{Built citation-backed explanation pipeline providing transparent evidence with source attribution and confidence scoring to increase trust in model outputs.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
@@ -166,9 +172,10 @@ Software engineer with experience across backend systems, data engineering, and 
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{\item{
-    \textbf{AI / Machine Learning}{: Python, PyTorch, TensorFlow, Scikit-learn, Pandas} \\
-    \textbf{Cloud \& DevOps}{: Azure (ADF, Logic Apps), AWS (Lambda, Connect), GCP (Cloud Run)} \\
-    \textbf{Databases}{: SQL Server, PostgreSQL, MySQL} \\
+    \textbf{Languages}{: Python, SQL (T-SQL), C\#, Java} \\
+    \textbf{Cloud \& DevOps}{: Azure (Data Factory, Logic Apps, SQL, DevOps), AWS (Lambda, S3, EC2 Connect), Docker, Kubernetes, Infrastructure-as-Code, CI/CD Pipelines} \\
+    \textbf{Data Engineering}{: Data Pipeline Tools, Data Architecture, Data Modeling, Machine Learning Pipelines} \\
+    \textbf{Data \& Databases}{: RDBMS, SQL Server, PostgreSQL, MySQL, ETL/ELT, Pandas, Numpy, Storage Engines} \\
   }}
 \end{itemize}
 \vspace{-10pt}
