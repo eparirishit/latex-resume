@@ -1,0 +1,184 @@
+
+%-------------------------
+% Resume in Latex
+% Generated Automatically
+%-------------------------
+
+\documentclass[letterpaper, 11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING (From Master Data)----------
+\begin{center}
+    {\Huge \scshape Rishit Epari} \\ \vspace{1pt}
+    Philadelphia, PA, USA \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 737-500-7226 ~ \href{mailto:rishit.epari@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{rishit.epari@gmail.com}} ~ 
+    \href{https://linkedin.com/in/eparirishit}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/eparirishit}}  ~
+    \href{https://github.com/eparirishit}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/eparirishit}}
+\end{center}
+
+%----------SUMMARY (Generated)----------
+\section{Professional Summary}
+Software Engineer I with 5 years of experience in building next-generation applications. Specialized in C\#, Java, and Python. Focused on designing and developing scalable application capabilities to enhance customer experience.
+
+%-----------EDUCATION (Static from Master Data)-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Drexel University}{Expected: 2026-05}
+    {Master of Science in Computer Science | GPA: 3.85}{Philadelphia, PA}
+    \resumeItemListStart
+        \resumeItem{Focus: Artificial Intelligence, Machine Learning}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {KIIT University}{2015}
+    {Bachelor of Technology in Computer Science \& Engineering}{Bhubaneswar, India}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE (Generated)-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+          {Resolution Life}{Sep 2025 - Present}
+          {AI Data Scientist (Co-op)}{Philadelphia, USA}
+          \resumeItemListStart
+            \resumeItem{Enhanced AI agent performance by refining prompts for low-quality interactions, raising response quality scores above defined evaluation thresholds.}
+        \resumeItem{Architected an automated AI governance framework using Power Automate to trigger API-based audits for bias, risk, and quality metrics with real-time alerts.}
+        \resumeItem{Engineered a custom multi-agent competitive analysis system using OpenAI APIs to autonomously evaluate competitor products and generate differentiation reports.}
+          \resumeItemListEnd
+
+    \resumeSubheading
+          {mavQ}{Jun 2022 - Aug 2024}
+          {Senior Software Development Engineer}{Hyderabad, India}
+          \resumeItemListStart
+            \resumeItem{Built scalable Spring Boot microservices supporting high-traffic customer deployments with resilient inter-service communication using Feign clients.}
+        \resumeItem{Developed and deployed an IVR solution using AWS Lambda and Amazon Connect, automating airport helpdesk operations handling 200+ calls daily.}
+        \resumeItem{Built and optimized ETL pipelines using Azure Data Factory to integrate APIs, SQL Server, and Blob storage into Salesforce.}
+          \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS (Generated)-----------
+\section{Select Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+              {\textbf{FactChecker} $|$ \emph{Python, FastAPI, Next.js}}{Apr 2025 - Jun 2025}
+              \resumeItemListStart
+            \resumeItem{Engineered an AI fact-checking platform using FastAPI and OpenAI API, integrating three parallel RAG pipelines for ensemble claim verification with web search retrieval.}
+        \resumeItem{Implemented multi-stage hallucination detection using agreement gates and GPT-4o-powered stance classification to improve factual reliability.}
+        \resumeItem{Built citation-backed explanation pipeline providing transparent evidence with source attribution and confidence scoring to increase trust in model outputs.}
+              \resumeItemListEnd
+
+      \resumeProjectHeading
+              {\textbf{EcoMedAI} $|$ \emph{Python, FastAPI, LLM}}{Feb 2025 - Feb 2025}
+              \resumeItemListStart
+            \resumeItem{Developed a medical waste classification pipeline using fine-tuned ResNet50 trained on WHO medical datasets, processing 10k+ items/month to reduce hazardous disposal costs by 15\%.}
+        \resumeItem{Architected a RAG-based recommendation engine using Gemini and FAISS for sustainable supply procurement, leveraging semantic search and LLM re-ranking.}
+        \resumeItem{Implemented waste stream mapping system translating WHO categories into color-coded bin classifications, preventing costly misclassification.}
+              \resumeItemListEnd
+
+      \resumeProjectHeading
+              {\textbf{CryptoSecure} $|$ \emph{React, Node.js, Claude Sonnet}}{Dec 2025 - Present}
+              \resumeItemListStart
+            \resumeItem{Architected an AI-powered security scanner for TON blockchain smart contracts, reducing audit time from weeks to under a minute.}
+        \resumeItem{Developed vulnerability detection engine using LLMs to identify 8+ semantic defect types.}
+        \resumeItem{Designed adversarial multi-agent framework to simulate exploit attempts, validating smart contract resilience against diverse attack vectors.}
+              \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------SKILLS (Generated)-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Core Competencies}{: C\#, Java, Python, JavaScript, Cloud Computing, Object-Oriented Programming} \\
+     \textbf{Languages \& Frameworks}{: Debugging, Algorithm Design, Software Quality, Web Development} \\
+     \textbf{DevOps \& Tools}{: Azure, AWS, Docker, Kubernetes} \\
+    }}
+ \end{itemize}
+
+%-----------CERTIFICATIONS (Static)-----------
+\section{Certifications}
+AWS Certified Developer - Associate (Jul 2024) $|$ AWS Certified Cloud Practitioner (Jan 2024)
+
+\end{document}
